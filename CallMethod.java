@@ -12,7 +12,9 @@ int operation(int val) {
 		CallMethod d = new CallMethod();
 		System.out.println("Befor operation value of data is "+d.val);
 		d.operation(100);
-		System.out.println("After operation value of data is "+d.val);
+		System.out.println("After operation value of data is "+d.val); 
+		
+		// we have to print the return value of operation method to see changes
 	}
 
 }
