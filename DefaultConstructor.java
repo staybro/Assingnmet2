@@ -4,6 +4,7 @@ public class DefaultConstructor {
 
 	int id;
 	String name;
+	//Contructor created by jvm on runtime
 	void display() {
 		System.out.println(id + " "+name);
 	}
